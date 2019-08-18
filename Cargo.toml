@@ -1,0 +1,9 @@
+[package]
+name = "link"
+version = "0.1.0"
+authors = ["fufik"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+libc = "*"

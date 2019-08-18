@@ -1,0 +1,4 @@
+Here is an example of using a native dynamic library
+To run it you should also tell your dinamic linker where to find the lib being linked, for example this one starts by folowing command:
+
+LD_LIBRARY_PATH=$(pwd)/src/c/bin target/debug/link
